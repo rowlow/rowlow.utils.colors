@@ -1,0 +1,3 @@
+@function rowlow-color($color-name) {
+	@return map-get($rowlow-colors, $color-name);
+}

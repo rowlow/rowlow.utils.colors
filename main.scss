@@ -1,0 +1,11 @@
+@import 'settings';
+@import 'mixins';
+@import 'functions';
+
+
+@each $color-name, $color-code in $rowlow-colors {
+	.#{$rowlow-colors-namespace}text-color--#{$color-name}{ color: #{$color-code}}
+	.#{$rowlow-colors-namespace}border-color--#{$color-name}{ border-color: #{$color-code}}
+	.#{$rowlow-colors-namespace}background-color--#{$color-name}{ background-color: #{$color-code}}
+}
+
