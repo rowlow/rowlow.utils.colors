@@ -1,0 +1,19 @@
+{
+  "name": "rowlow.utils.colors",
+  "version": "0.1.0",
+  "homepage": "http://rowlow.github.io",
+  "authors": [
+    "Roland Lösslein <info@weaintplastic.com>"
+  ],
+  "description": "A color util for ROW LOW framework",
+  "keywords": [
+    "rowlow",
+    "color"
+  ],
+  "main": "main.scss",
+  "license": "MIT",
+  "ignore": [],
+  "dependencies": {
+    "rowlow.settings.default": "~0.1.2"
+  }
+}
